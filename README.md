@@ -1,6 +1,6 @@
-# 🩺 Diabetes Risk Prediction with Explainability and Counterfactual Insights
+# Diabetes Risk Prediction with Explainability and Counterfactual Insights
 
-## 📌 Overview
+## Overview
 
 This project uses the **Pima Indians Diabetes dataset** to build a machine learning model that predicts the likelihood of diabetes. Unlike traditional classifiers, this project goes beyond simple prediction by providing:
 
@@ -11,16 +11,16 @@ The goal is to simulate a **decision-support tool** that not only informs, but e
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
-- ✅ Build a predictive model for diabetes risk.
-- ✅ Use **SHAP** or **LIME** to explain individual predictions.
-- ✅ Generate **counterfactuals** (e.g., “If BMI were lower, prediction = non-diabetic”).
-- ✅ Package it into a user-friendly analysis notebook or app.
+- Build a predictive model for diabetes risk.
+- Use **SHAP** or **LIME** to explain individual predictions.
+- Generate **counterfactuals** (e.g., “If BMI were lower, prediction = non-diabetic”).
+- Package it into a user-friendly analysis notebook or app.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source**: [Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 - **Records**: ~768 samples
@@ -29,17 +29,17 @@ The goal is to simulate a **decision-support tool** that not only informs, but e
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - Python 3.8+
 - Pandas, NumPy, scikit-learn
-- SHAP / LIME (for XAI)
+- LIME (for XAI)
 - DiCE / Alibi / Custom (for counterfactuals)
 - Optional: Streamlit / Gradio for a web interface
 
 ---
 
-## 🧠 Model Pipeline
+## Model Pipeline
 
 1. **Data Preprocessing**
 2. **Exploratory Data Analysis**
@@ -50,7 +50,7 @@ The goal is to simulate a **decision-support tool** that not only informs, but e
 
 ---
 
-## 🕵️‍♀️ Example Insight
+## Example Insight
 
 > A patient with high glucose and BMI is predicted to have diabetes.  
 > SHAP shows **glucose** is the main driver.  
@@ -58,5 +58,5 @@ The goal is to simulate a **decision-support tool** that not only informs, but e
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
